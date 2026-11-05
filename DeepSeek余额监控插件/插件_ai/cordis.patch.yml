@@ -1,0 +1,6 @@
+# ds余额：DeepSeek API 余额监控
+# 这个 bundle 只做一件事：把宿主半侧（轮询余额、记录变动、提供 /ds-balance API）
+# 和客户端半侧（侧栏“余额”面板、会话头部小徽章）作为同一行插件加载。
+- insert:
+    - id: ds-balance
+      name: 'dsh-ds-balance-ai'
